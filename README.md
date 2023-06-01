@@ -1,3 +1,3 @@
-### recap on DOM 
+## Recap on DOM 
 
-#### dom manipulation
+#### DOM manipulation
