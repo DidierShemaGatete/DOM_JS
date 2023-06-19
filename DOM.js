@@ -13,7 +13,7 @@ document.title= "new name ";// changes the dom title
 var form = document.getElementById('addForm');
 var itemList = document.getElementById('items');
 var filter = document.getElementById('filter');
-
+f 
 // Form submit event
 form.addEventListener('submit', addItem);
 // Delete event
@@ -77,3 +77,6 @@ function filterItems(e){
     }
   });
 }
+
+
+/* PROBATION and REVAEL EVENTS */
