@@ -1,0 +1,46 @@
+body {
+
+    background-color: black;
+    color: white;
+
+}
+
+.body1 {
+
+    position: relative;
+
+
+}
+
+.btn-1 {
+
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    padding: 1rem;
+       
+
+}
+
+#float {
+    width: 7rem;
+    height: auto;
+    color: black;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 2px;
+    transition: .5s;
+    border-radius: 1rem;
+}
+
+#float:hover {
+
+    background-color: blue;
+}
+
+.btn-main{
+    display: flex
+
+}
