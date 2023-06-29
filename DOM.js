@@ -79,4 +79,26 @@ function filterItems(e){
 }
 
 
+const firstParagraph = document.queryselector('#float')
+
+firstParagraph.style.backgroundColor = "blue";
+
+
+/* ==============RECAP IN CURICULLUM EXERCISES============ */
+
+/* +++ select all paragraphs that are descendants of class articles +++*/
+
+document.querySelectorAll('.articles p');
+
+
+/* querySelectorAll returns a Nodelist ; so we cant use Array methods to loop through them, we use foreach() or for loop */   
+
+
+
+for (i=0 ; i <= articles.lenght ; i++){
+  console.dir(articles[i])          //console.dir used to display list of properties of Object
+}
+
+
+
 /* PROBATION and REVAEL EVENTS */
